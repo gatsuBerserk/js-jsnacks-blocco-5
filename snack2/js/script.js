@@ -29,7 +29,7 @@ const auto= [
    }, 
 
 ]; 
-
+// Usiamo filter in qunato dobbiamo solo "filtrare" il nostro array di oggetti
 const benzina= auto.filter((element) =>{
    if ( element.alimentazione == "benzina"){
       return true
